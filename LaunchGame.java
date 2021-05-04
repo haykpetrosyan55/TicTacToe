@@ -45,16 +45,12 @@ public class LaunchGame implements ActionListener {
 
     }
 
-    String XorO = "X";
-    Boolean isXorO = true;
-    int count = 0;
-
     @Override
     public void actionPerformed(ActionEvent e) {
 
         if (e.getSource() == Players_1) {
-            frame.dispose();
-            OnePlayerGame onePlayerGame = new OnePlayerGame();
+            //frame.dispose();
+            //OnePlayerGame onePlayerGame = new OnePlayerGame();      NOT YET WORK!!!
         }
 
         if (e.getSource() == Players_2) {

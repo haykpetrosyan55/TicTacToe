@@ -150,6 +150,7 @@ public class OnePlayerGame implements ActionListener {
         }
 
 
+/*
         if(step == 1){
             if(b2Text.equals(X)){
                 setO(a1);
@@ -177,6 +178,7 @@ public class OnePlayerGame implements ActionListener {
 
         }
 
+*/
 
 
         if ((a1.getText() == b2.getText() && b2.getText() == c3.getText()) ||
